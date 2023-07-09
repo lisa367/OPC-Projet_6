@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Stream It</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="script.js" async></script>
+    <script src="api.js" async></script>
+</head>
+
+<body>
+    <nav>
+        <h1>Just Stream It</h1>
+        <div id="nav-right">
+            <p>Home</p>
+            <p>Categories</p>
+        </div>
+    </nav>
+
+    <main>
+
+        <div id="best-movie">
+            <h2 id="best-title">Title</h2>
+            <p id="best-genre">Description</p>
+            <p id="best-description">Description</p>
+            <button id="play-button">Play</button>
+        </div>
+
+        <div class="categories" id="mieux_notes">
+            <h3 class="nom_categorie">Best rating scores</h3>
+            <div class="movies">
+                <p class="arrow-left" id="0"> <- </p>
+                        <div class="movies-images">
+                            <div class="cadre-img">
+                                <img class="vignette" id="img1.1" src="" alt="">
+                                <img class="vignette" id="img1.2" src="" alt="">
+                                <img class="vignette" id="img1.3" src="" alt="">
+                                <img class="vignette" id="img1.4" src="" alt="">
+                                <img class="vignette" id="img1.5" src="" alt="">
+                                <img class="vignette" id="img1.6" src="" alt="">
+                                <img class="vignette" id="img1.7" src="" alt="">
+                            </div>
+                        </div>
+                        <p class="arrow-right" id="0"> -> </p>
+            </div>
+        </div>
+        <div class="categories" id="cat_1">
+            <h3 class="nom_categorie" id="title-cat1">Catégorie 1</h3>
+            <div class="movies">
+                <p class="arrow-left" id="1"> <- </p>
+                        <div class="movies-images">
+                            <div class="cadre-img">
+                                <img class="vignette" id="img2.1" src="" alt="">
+                                <img class="vignette" id="img2.2" src="" alt="">
+                                <img class="vignette" id="img2.3" src="" alt="">
+                                <img class="vignette" id="img2.4" src="" alt="">
+                                <img class="vignette" id="img2.5" src="" alt="">
+                                <img class="vignette" id="img2.6" src="" alt="">
+                                <img class="vignette" id="img2.7" src="" alt="">
+                            </div>
+                        </div>
+                        <p class="arrow-right" id="1"> -> </p>
+            </div>
+        </div>
+        <div class="categories" id="cat_2">
+            <h3 class="nom_categorie" id="title-cat2">Catégorie 2</h3>
+            <div class="movies">
+                <p class="arrow-left" id="2"> <- </p>
+                        <div class="movies-images">
+                            <div class="cadre-img">
+                                <img class="vignette" id="img3.1" src="" alt="">
+                                <img class="vignette" id="img3.2" src="" alt="">
+                                <img class="vignette" id="img3.3" src="" alt="">
+                                <img class="vignette" id="img3.4" src="" alt="">
+                                <img class="vignette" id="img3.5" src="" alt="">
+                                <img class="vignette" id="img3.6" src="" alt="">
+                                <img class="vignette" id="img3.7" src="" alt="">
+                            </div>
+                        </div>
+                        <p class="arrow-right" id="2"> -> </p>
+            </div>
+        </div>
+        <div class="categories" id="cat_3">
+            <h3 class="nom_categorie" id="title-cat3">Catégorie 3</h3>
+            <div class="movies">
+                <p class="arrow-left" id="3"> <- </p>
+                        <div class="movies-images">
+                            <div class="cadre-img">
+                                <img class="vignette" id="img4.1" src="" alt="">
+                                <img class="vignette" id="img4.2" src="" alt="">
+                                <img class="vignette" id="img4.3" src="" alt="">
+                                <img class="vignette" id="img4.4" src="" alt="">
+                                <img class="vignette" id="img4.5" src="" alt="">
+                                <img class="vignette" id="img4.6" src="" alt="">
+                                <img class="vignette" id="img4.7" src="" alt="">
+                            </div>
+                        </div>
+                        <p class="arrow-right" id="3"> -> </p>
+            </div>
+        </div>
+
+    </main>
+    <div id="modal-div">
+        <div id="modal-window" class="modal-hidden">
+            <img id="modal-img" src="" alt="">
+            <button id="close-button">X</button>  
+            <div id="modal-data">
+                <h3 id="modal-title"></h3>
+                <div id="data">
+                    <div id="basic">
+                        <p id="modal-year"></p>
+                        <p id="modal-duration"></p>
+                        <p id="modal-imdb"></p>
+                        <p id="modal-rated"></p>
+                    </div>
+                    <div id="production">
+                        <p id="modal-genre">Genres: </p>
+                        <p id="modal-countries">Countries: </p>
+                        <p id="modal-actors">Cast: </p>
+                        <p id="modal-directors">Directors: </p>
+                    </div>
+                </div>
+                <p id="modal-resume"></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
