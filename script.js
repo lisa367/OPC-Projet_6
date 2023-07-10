@@ -72,7 +72,7 @@ vignettes.forEach(element => {
 
 
 // Horizontal scrolling
-/*function moveRight(i) {
+function moveRight(i) {
     // const originalX = cadreImg[i].getBoundingClientRect()["x"];
     const originalX = cadreImg[i].getBoundingClientRect()["x"];
     let newX = originalX;
@@ -109,4 +109,4 @@ for (let i of [0, 1, 2, 3]) {
         moveLeft(i);
     };
 }
-*/
+
