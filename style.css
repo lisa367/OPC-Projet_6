@@ -63,7 +63,7 @@ nav {
 #best-movie {
     /*border: 1px solid grey;*/
     margin: auto;
-    height: 17rem;
+    height: 15rem;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -92,9 +92,9 @@ nav {
 }
 
 .categories {
-    /* border: 1px solid white;*/
+    /*border: 1px solid white;*/
     margin-top: 1rem;
-    height: 8.5rem;
+    height: 12rem;
     width: 100%;
 }
 
@@ -105,7 +105,7 @@ nav {
 
 .nom_categorie {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: gray;
     text-align: center;
 }
@@ -114,10 +114,23 @@ nav {
 /* --------------------------------------------- */
 .arrow-left,
 .arrow-right {
-    /*border: 1px solid blue;*/
+    /*border: 0.5px solid white;*/
     color: white;
     font-size: 30px;
     opacity: 0.8;
+    padding: 2rem 1rem;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    /*border: 0.5px solid white;*/
+    background-color: lightgray;
+    opacity: 0.2;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    opacity: 0.8;
+    padding: 2rem 1rem;
 }
 
 .movies {
@@ -127,9 +140,9 @@ nav {
 }
 
 .movies-images {
-    border: 1px solid blue;
-    width: 80%;
-    height: 7rem;
+    /*border: 1px solid blue;*/
+    width: 75%;
+    height: 9.8rem;
     margin: 0 2rem;
     overflow: hidden;
 }
@@ -145,10 +158,15 @@ nav {
 }
 
 .cadre-img img {
-    min-width: 12rem;
+    min-width: 10rem;
     min-height: 100%;
     background-color: blueviolet;
     margin: 0 3px;
+}
+
+.cadre-img img:hover {
+    cursor: pointer;
+    border: 3px solid blueviolet;
 }
 
 /* --------------------------------------------- */
@@ -271,6 +289,7 @@ nav {
     /*justify-content: space-around;*/
     padding: 0;
 }
+
 #modal-data #basic * {
     /*border: 1px solid blueviolet;*/
     margin: 0 2px;
@@ -280,7 +299,7 @@ nav {
 }
 
 #modal-data #production {
-     /*border: 1px solid red;*/
+    /*border: 1px solid red;*/
     min-width: 30%;
     max-width: 50%;
     margin-top: 0;
