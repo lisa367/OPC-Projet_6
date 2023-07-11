@@ -1,8 +1,8 @@
-const arrowsLeft = document.querySelectorAll(".arrow-left");
-const arrowsRight = document.querySelectorAll(".arrow-right");
+//const arrowsLeft = document.querySelectorAll(".arrow-left");
+//const arrowsRight = document.querySelectorAll(".arrow-right");
 
 
-const cadreImg = document.querySelectorAll(".cadre-img");
+// const cadreImg = document.querySelectorAll(".cadre-img");
 const vignettes = document.querySelectorAll(".vignette");
 const modalWindow = document.getElementById("modal-window");
 const closeButton = document.getElementById("close-button");
@@ -70,7 +70,7 @@ vignettes.forEach(element => {
 
 
 
-
+/*
 // Horizontal scrolling
 function moveRight(i) {
     // const originalX = cadreImg[i].getBoundingClientRect()["x"];
@@ -110,3 +110,4 @@ for (let i of [0, 1, 2, 3]) {
     };
 }
 
+*/
