@@ -47,6 +47,10 @@ h1 {
     margin-right: 5px;
 }
 
+#nav-right p:hover {
+    cursor: pointer;
+}
+
 /* --------------------------------------------- */
 main {
     height: 90%;
@@ -64,7 +68,7 @@ nav {
     /*border: 1px solid grey;*/
     margin: auto;
     height: 15rem;
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +89,10 @@ nav {
     font-size: 1.2rem;
 }
 
+#play-button:hover {
+    cursor: pointer;
+}
+
 #best-movie h2,
 #best-movie p {
     margin-left: 1rem;
@@ -100,7 +108,7 @@ nav {
 
 .categories h3 {
     /*border: 1px solid black;*/
-    margin: 0;
+    margin: 5px 0;
 }
 
 .nom_categorie {
@@ -131,19 +139,21 @@ nav {
     font-weight: 800;
     opacity: 0.8;
     padding: 2rem 1rem;
+    cursor: pointer;
 }
 
 .movies {
+    /*border: 0.5px solid white;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .movies-images {
-    /*border: 1px solid blue;*/
-    width: 75%;
+    /*border: 0.5px solid blue;*/
+    width: 61.2%;
     height: 9.8rem;
-    margin: 0 2rem;
+    margin: 0 5rem;
     overflow: hidden;
 }
 
